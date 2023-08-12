@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "GPT ON THE GO",
+    "version": "1.0",
+    "description": "a lazy extension for people who don't want to go to chat gpt to ask it and to get breif explanation.",
+    "permissions": ["contextMenus"],
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+ 
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    }
+  }

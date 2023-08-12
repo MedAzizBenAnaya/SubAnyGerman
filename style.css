@@ -1,0 +1,30 @@
+
+body {
+    background-color: gray; /* Change to your desired color */
+}
+
+label {
+    font-family: "Arial", sans-serif;
+    transition: color 0.3s ease;
+
+}
+
+input {
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    
+}
+
+.popup-container {
+    max-width: 100%;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    
+}
+
+#response-container {
+    margin-top: 10px;
+}
