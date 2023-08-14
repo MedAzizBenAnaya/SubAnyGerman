@@ -1,30 +1,80 @@
 
 body {
-    background-color: gray; /* Change to your desired color */
+    background-color: #5f6062; 
+
 }
 
-label {
-    font-family: "Arial", sans-serif;
-    transition: color 0.3s ease;
+h2{
+    color: #eae1df;
+    text-align: center;   
 
 }
 
 input {
-    
-    border: 1px solid #ccc;
+
+    margin-left: 30px;
+    border: 1px  ;
     border-radius: 10px;
     padding: 5px 10px;
-    display: inline-block;
+}
+
+
+input[type=text] {
+
+    color: #eae1df;
+    outline: none;
+    background-color: #3cb371 ;
     
 }
 
+::placeholder{
+    color: #eae1df;
+    opacity: 60%;
+}
+
+
+
+#submit-button {
+
+    border: none;
+    color: #5f6062;
+    background-color:#eae1df ;
+    opacity: 100%;
+
+    
+    border-radius: 10px;
+
+    padding: 5px 10px;
+    text-align: center;
+    
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    opacity: 100%;
+
+    transition: 300ms;
+
+}
+
+#submit-button:hover {
+    opacity: 70%;
+
+}
+
+
 .popup-container {
     max-width: 100%;
-    width: 300px; /* Adjust as needed */
+    width: 300px; 
     height: auto;
     
 }
 
-#response-container {
+#response-container{
     margin-top: 10px;
+    max-width: 100%;
+    width: 300px;
+    border-radius: 10px;
+
+    height:300px;
+    background-color: #eae1df;
 }
